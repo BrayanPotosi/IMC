@@ -24,22 +24,25 @@
         </div>
 
         <div class="form_Section">
-            <form action="">
-                <label class="label_form" for="">Estatura(cm) : </label>
-                <input type="number" name="" id="">
-                <label class="label_form" for="">peso(kg) : </label>
-                <input type="number" name="" id="">
-                <input type="button" name="" id="">
+            <form class="main_form" action="">
+                <label  for="">Estatura(cm) : </label>
+                <input type="number" name="" id="number_cm">
+                <label  for="">peso(kg) : </label>
+                <input type="number" name="" id="number_kg">
+                <input type="button" name="" id="buttonCalculate" value="Calcular">
             </form>
+
+            <p hidden>Su imc es</p>
         </div>
 
         <div class="main_description">
             <p>El índice de masa corporal es una razón matemática que asocia la masa y la talla de un individuo, ideada por el estadístico belga Adolphe Quetelet, por lo que también se conoce como índice de Quetelet.</p>
+            <p>Para conocer tu IMC ingrese su estatura en centimetros y su peso en kilogramos, luego presione el boton calcular</p>
         </div>
     </section>
 
-    <footer>
-        <h5>Todos los derechos reservados</h5>
+    <footer class="footer">
+        <span>Todos los derechos reservados</span>
     </footer>
 
 <script src="./src/scripts/main.js"></script>
