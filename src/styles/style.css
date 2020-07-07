@@ -1,0 +1,26 @@
+body{
+    margin: 1%;
+    font-family: 'Bellota Text', cursive;
+    background-color: #f5f5f5;
+}
+
+.header_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.main_section{
+    display: grid;
+    grid-template-rows: 30%;
+}
+
+.main_image{
+    height: 380px;
+}
+
+.label_form{
+    border: 0;
+    border-radius: 7px;
+}
