@@ -1,8 +1,9 @@
-let estatura = parseInt(document.getElementById('number_cm').value);
-let peso = parseInt(document.getElementById('number_kg').value);
+const estatura = parseInt(document.querySelector('#number_cm').value);
+const peso = parseInt(document.querySelector('#number_kg').value);
 
-let calcular = document.getElementById('buttonCalculate').addEventListener('click',funcalcular);
+const calcular = document.querySelector('#buttonCalculate').addEventListener('click',funcalcular);
 
 function funcalcular(){
-    console.log(estatura + peso)
+    console.log(estatura)
+    console.log(peso)
 }
