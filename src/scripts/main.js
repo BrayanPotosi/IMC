@@ -20,6 +20,5 @@ function funcalculate(){
     else if(result1 >= 30.0){
         result_text = `Su IMC es de ${result1}, esto quiere decir que estas obeso`
     }
-    console.log(result_text)
     finalText.innerHTML = result_text
 }
