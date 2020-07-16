@@ -68,6 +68,42 @@ body{
 }
 
 .form_Section p{
-    margin-top: 55%;
+    display: flex;
+    align-items: center;
     
+}
+
+.final_text{
+    font-size: 25px;
+    height: 60px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.main_button{
+    color: black;
+    background-color: white;
+    height: 25px;
+    width: 80px;
+    outline: none;
+}
+
+.main_button:hover{
+    color: white;
+    background-color: #EE964B;
+    cursor: pointer;
+}
+
+.input_content{
+    height: 25px;
+    width: 165px;
+    outline: none;
 }
