@@ -11,7 +11,7 @@ function funcalculate(){
     if(result1 <18.5){
         result_text = `Su IMC es de ${result1}, esto quiere decir que tienes un peso bajo`
     }
-    else if(result1 >=18.5 && result1 < 25){
+    else if(result1 >=18.5 && result1 <= 24.9){
         result_text = `Su IMC es de ${result1}, esto quiere decir que tienes un peso normal`
     }
     else if(result1 >=25.0 && result1 <= 29.9){
